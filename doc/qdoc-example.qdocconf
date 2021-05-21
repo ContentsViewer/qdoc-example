@@ -1,0 +1,39 @@
+# include($QT_INSTALL_DOCS/global/qt-module-defaults.qdocconf)
+
+QT_INSTALL_HEADERS = C:/Qt/5.15.2/msvc2019_64/include
+
+project                 = QDoc-Example
+description             = QDoc-Example Reference Documentation
+
+sourcedirs += ../src
+headerdirs += ../src
+imagedirs  += images
+
+depends += \
+    qtcore 
+
+
+# includepaths += \
+#     C:/Qt/5.15.2/msvc2019_64/include/QtCore \
+#     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+
+includepaths += \
+    C:/Qt/5.15.2/msvc2019_64/include \
+    C:/Qt/5.15.2/msvc2019_64/include/QtCore
+
+headers.fileextensions  = "*.h *.hpp"
+sources.fileextensions  = "*.cpp *.qml *.qdoc"
+
+# where to put the result
+outputdir = html
+# what format to use for generating documentation
+outputformats = HTML
+
+# path to the CSS files if you would like to use any (here it's the current directory)
+HTML.stylesheets = style/style.css
+# the string that actually includes the CSS into documentation file
+HTML.headerstyles = "<link rel=\"stylesheet\" type=\"text/css\" href=\"style/style.css\"/>\n"
+# what to append to every page after header
+HTML.postheader = "<p class=\"header\"><small>[My awesome documentation]</small></p><hr/>"
+# what to append to every page after the content
+HTML.footer = "<hr/><p class=\"footer\"><small>[some footer and whatnot information]</small></p>"

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>view/main.qml</file>
+        <file>view/AwesomeUIControl.qml</file>
+        <file>view/BindingView.qml</file>
+    </qresource>
+</RCC>

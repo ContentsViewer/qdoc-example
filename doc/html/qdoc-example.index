@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="" title="QDoc-Example Reference Documentation" version="" project="QDoc-Example">
+    <namespace name="" status="active" access="public" module="qdoc-example">
+        <qmlclass name="AwesomeUIControl" qml-module-name="AwesomeUIControl" href="qml-awesomeuicontrol.html" status="active" access="public" documented="true" title="AwesomeUIControl" fulltitle="AwesomeUIControl" subtitle="" brief="A customized TextInput control">
+            <contents name="setting-default-text-and-capitalization" title="Setting default text and capitalization" level="1"/>
+            <qmlproperty name="capitalization" fullname="AwesomeUIControl::capitalization" href="qml-awesomeuicontrol.html#capitalization-prop" status="active" access="public" documented="true" type="alias" attached="false" writable="true"/>
+            <qmlproperty name="echoMode" fullname="AwesomeUIControl::echoMode" href="qml-awesomeuicontrol.html#echoMode-prop" status="active" access="public" documented="true" type="alias" attached="false" writable="true"/>
+            <qmlproperty name="input" fullname="AwesomeUIControl::input" href="qml-awesomeuicontrol.html#input-prop" status="active" access="public" documented="true" type="alias" attached="false" writable="true"/>
+            <qmlproperty name="text" fullname="AwesomeUIControl::text" href="qml-awesomeuicontrol.html#text-prop" status="active" access="public" documented="true" type="alias" attached="false" writable="true"/>
+        </qmlclass>
+        <class name="BindingChecker" href="bindingchecker.html" status="active" access="public" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="6" documented="true" bases="QObject" module="QDoc-Example">
+            <function name="BindingChecker" fullname="BindingChecker::BindingChecker" href="bindingchecker.html#BindingChecker" status="active" access="public" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="12" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="BindingChecker(QObject *parent)">
+                <parameter type="QObject *" name="parent" default="nullptr"/>
+            </function>
+            <function name="anotherFunction" fullname="BindingChecker::anotherFunction" href="bindingchecker.html#anotherFunction" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="13" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void anotherFunction()"/>
+            <function name="callMe" fullname="BindingChecker::callMe" href="bindingchecker.html#callMe" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="21" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void callMe()"/>
+            <function name="getSomeVar" fullname="BindingChecker::getSomeVar" href="bindingchecker.html#getSomeVar" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="14" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QString" signature="QString getSomeVar()"/>
+            <function name="metaObject" fullname="BindingChecker::metaObject" href="bindingchecker.html#metaObject" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="8" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="const QMetaObject *" signature="const QMetaObject * metaObject() const override"/>
+            <function name="qt_metacall" fullname="BindingChecker::qt_metacall" href="bindingchecker.html#qt_metacall" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="8" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="int" signature="int qt_metacall(QMetaObject::Call , int , void **) override">
+                <parameter type="QMetaObject::Call" name="" default=""/>
+                <parameter type="int" name="" default=""/>
+                <parameter type="void **" name="" default=""/>
+            </function>
+            <function name="qt_metacast" fullname="BindingChecker::qt_metacast" href="bindingchecker.html#qt_metacast" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="8" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void *" signature="void * qt_metacast(const char *) override">
+                <parameter type="const char *" name="" default=""/>
+            </function>
+            <function name="qt_static_metacall" fullname="BindingChecker::qt_static_metacall" href="bindingchecker.html#qt_static_metacall" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="8" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="void" signature="void qt_static_metacall(QObject *, QMetaObject::Call , int , void **)">
+                <parameter type="QObject *" name="" default=""/>
+                <parameter type="QMetaObject::Call" name="" default=""/>
+                <parameter type="int" name="" default=""/>
+                <parameter type="void **" name="" default=""/>
+            </function>
+            <function name="setSomeVar" fullname="BindingChecker::setSomeVar" href="bindingchecker.html#someVar-prop" status="active" access="public" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="22" meta="slot" virtual="non" const="false" static="false" final="false" override="false" associated-property="someVar" type="void" signature="void setSomeVar(QString )">
+                <parameter type="QString" name="" default=""/>
+            </function>
+            <function name="someVar" fullname="BindingChecker::someVar" href="bindingchecker.html#someVar-prop" status="active" access="public" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="15" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="someVar" type="QString" signature="QString someVar()"/>
+            <function name="someVarChanged" fullname="BindingChecker::someVarChanged" href="bindingchecker.html#someVar-prop" status="active" access="public" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="18" meta="signal" virtual="non" const="false" static="false" final="false" override="false" associated-property="someVar" type="void" signature="void someVarChanged()"/>
+            <struct name="QPrivateSignal" fullname="BindingChecker::QPrivateSignal" href="bindingchecker-qprivatesignal.html" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="8"/>
+            <property name="someVar" fullname="BindingChecker::someVar" href="bindingchecker.html#someVar-prop" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="9" type="QString">
+                <getter name="someVar"/>
+                <setter name="setSomeVar"/>
+                <notifier name="someVarChanged"/>
+            </property>
+            <variable name="m_someVar" fullname="BindingChecker::m_someVar" href="bindingchecker.html#m_someVar-var" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="25" type="QString" static="false"/>
+            <variable name="staticMetaObject" fullname="BindingChecker::staticMetaObject" href="bindingchecker.html#staticMetaObject-var" status="internal" access="private" location="bindingchecker.h" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/utils/bindingchecker.h" lineno="8" type="const QMetaObject" static="true"/>
+        </class>
+        <qmlclass name="BindingView" qml-module-name="BindingView" href="qml-bindingview.html" status="internal" access="private" location="BindingView.qml" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/view/BindingView.qml" lineno="5" title="BindingView" fulltitle="BindingView" subtitle=""/>
+        <qmlclass name="main" qml-module-name="main" href="qml-main.html" status="internal" access="private" location="main.qml" filepath="C:/Users/onete/OneDrive/Documents/Qt/Projects/qdoc-example/src/view/main.qml" lineno="5" title="main" fulltitle="main" subtitle=""/>
+        <module name="QDoc-Example" href="qdoc-example-module.html" status="internal" seen="false" title="" members="BindingChecker"/>
+    </namespace>
+</INDEX>
